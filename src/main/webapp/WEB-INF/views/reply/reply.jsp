@@ -1,28 +1,5 @@
-
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
- <link rel="stylesheet" href="${pageContext.request.contextPath}/webjars/bootstrap/5.2.3/css/bootstrap.css">
-  <script src="${pageContext.request.contextPath}/webjars/bootstrap/5.2.3/js/bootstrap.bundle.js"></script>
-  <script src="${pageContext.request.contextPath}/webjars/jquery/3.6.4/jquery.js"></script>
-  <script
-</head>
 <style>
-  * {
-    box-sizing: border-box;
-  }
-
-  div {
-    /* border: 1px solid black; */
-
-  }
-
+  
   .profile {
     width: 29px;
     height: 29px;
@@ -128,7 +105,6 @@
   }
 </style>
 
-<body>
 <form action="/admin/reply/register" method="post">
   <div class="container-fluid p-0">
     <div class="row m-0">
@@ -151,12 +127,9 @@
           </div>
         </div>
       </div>
-
     </div>
-
   </div>
 </form>
-
 <hr>
 <form action="/admin/reply/modify">
   <div class="comment-box p-0 ">
@@ -169,9 +142,9 @@
       <div class="col-10 comment-detail p-0">
         <div class="row m-0">
           <div class="col-12 main p-0">
-            <span class="user">mainlib990</span>
+            <span class="user">test</span>
             <span class="comment_txt">
-                                안녕하세요ddsds
+                                안녕하세요
                             </span>
           </div>
           <div class="col-12 sub p-0">
@@ -191,7 +164,6 @@
   </div>
 </form>
 
-</body>
 <script>
   $(".delete-Btn").click(function (){
     const form = $("<form action='/admin/reply/delete' method='post'>");
@@ -206,8 +178,6 @@
   })
 
   $(".modify-Btn").click(function () {
-
-
 
     const deleteBtn = $(this).prev();
     const modifyBtn = $(this)
