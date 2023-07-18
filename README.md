@@ -28,6 +28,10 @@
 |:---:|
 |![상품 상세 페이지](https://github.com/ChohyePark/MacaroonProject/assets/122193843/da231e0b-6ac2-4c57-82a5-182cd5cd308c)|
 
+|반응형 처리|
+|:---:|
+|![screenshot (1)](https://github.com/ChohyePark/MacaroonProject/assets/122193843/c7a4ce55-6f6d-4857-895b-ae499b67ad5f)|
+
 
 
 
