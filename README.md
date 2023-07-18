@@ -18,6 +18,7 @@
 |메인 페이지|
 |:---:|
 |![메인페이지](https://github.com/ChohyePark/MacaroonProject/assets/122193843/11691eff-5756-4b14-8ddb-793bbacf8eb1)|
+![gif](https://github.com/ChohyePark/MacaroonProject/assets/122193843/fdf92bc2-bbb0-4703-a48e-daff4fffeeb6)
 
 |상품 전체 페이지|
 |:---:|
